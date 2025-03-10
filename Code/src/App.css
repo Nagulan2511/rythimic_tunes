@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #303155;
+  min-height: 100vh;
+  color: white;
+}
+
+.navbar {
+  background: #121212;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sidebar {
+  background: #9192bb;
+  padding: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  width: 250px;
+}
+
+.card {
+  background: #9192bb;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background:  #d6d7e9;
+}
+
+table {
+  width: 100%;
+  background: #181818;
+  border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+tr:hover {
+  background: #282828;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  color: #ff6b00;
+  transform: scale(1.05);
+}
+
+audio {
+  border-radius: 20px;
+  background: #181818;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.page-title {
+  font-size: 2rem;
+  margin: 24px 0;
+}
+
+.search-input {
+  background: #ffffff;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.search-input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.icon {
+  color: #b3b3b3;
+}
+
+.icon:hover {
+  color: #ffffff;
+}
+
+.heart-icon {
+  color: #ff6b00;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282828;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #383838;
+}
+
+.nav-link {
+  color: #b3b3b3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.nav-link.active {
+  color: #ffffff;
+}
+
+.library-section {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.library-title {
+  color: #b3b3b3;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+}
+
+// Styles specific to the App component

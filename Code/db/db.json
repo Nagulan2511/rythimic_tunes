@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Agasatha ",
+      "singer": "Kalyani Nair,Pradeep Kumar",
+      "genre": "Romantic",
+      "imgUrl": "public/cover/Agasatha.jpg",
+      "songUrl": "public/songs/agasatha.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Enna Naan Seiven",
+      "singer": "Kavya Subramanyam",
+      "genre": "Romantic",
+      "imgUrl": "public/cover/Enna naan seiven.jpg",
+      "songUrl": "public/songs/Enna Naan Seiven.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Muzhumathi",
+      "singer": "A.R.Rahman,Srinivas",
+      "genre": "Romantic",
+      "imgUrl": "public/cover/muzhumathi.jpg",
+      "songUrl": "public/songs/muzhumathi.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Railin Oligal",
+      "singer": "Pradeep Kumar",
+      "genre": "Emotional",
+      "imgUrl": "public/cover/Railin Oligal.jpg",
+      "songUrl": "public/songs/Railin Oligal.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Vaayamoodi Summa Iru Da",
+      "singer": "Alaap Raju",
+      "genre": "Emotional",
+      "imgUrl": "public/cover/Vaayamoodi Summa Iru Da.jpg",
+      "songUrl": "public/songs/Vaayamoodi ssumma riu da.mp3"
+    }
+  ],
+  "favorities": [
+    {
+      "itemId": 1,
+      "title": "Agasatha ",
+      "imgUrl": "public/cover/Agasatha.jpg",
+      "genre": "Romantic",
+      "songUrl": "public/songs/agasatha.mp3",
+      "singer": "Kalyani Nair,Pradeep Kumar",
+      "id": 5
+    },
+    {
+      "itemId": 3,
+      "title": "Muzhumathi",
+      "imgUrl": "public/cover/muzhumathi.jpg",
+      "genre": "Romantic",
+      "songUrl": "public/songs/muzhumathi.mp3",
+      "singer": "A.R.Rahman,Srinivas",
+      "id": 6
+    },
+    {
+      "itemId": 2,
+      "title": "Enna Naan Seiven",
+      "imgUrl": "public/cover/Enna naan seiven.jpg",
+      "genre": "Romantic",
+      "songUrl": "public/songs/Enna Naan Seiven.mp3",
+      "singer": "Kavya Subramanyam",
+      "id": 7
+    }
+  ],
+  "playlist": [
+    {
+      "itemId": 2,
+      "title": "Enna Naan Seiven",
+      "imgUrl": "public/cover/Enna naan seiven.jpg",
+      "genre": "Romantic",
+      "songUrl": "public/songs/Enna Naan Seiven.mp3",
+      "singer": "Kavya Subramanyam",
+      "id": 5
+    },
+    {
+      "itemId": 3,
+      "title": "Muzhumathi",
+      "imgUrl": "public/cover/muzhumathi.jpg",
+      "genre": "Romantic",
+      "songUrl": "public/songs/muzhumathi.mp3",
+      "singer": "A.R.Rahman,Srinivas",
+      "id": 6
+    },
+    {
+      "itemId": 4,
+      "title": "Railin Oligal",
+      "imgUrl": "public/cover/Railin Oligal.jpg",
+      "genre": "Emotional",
+      "songUrl": "public/songs/Railin Oligal.mp3",
+      "singer": "Pradeep Kumar",
+      "id": 7
+    },
+    {
+      "itemId": 1,
+      "title": "Agasatha ",
+      "imgUrl": "public/cover/Agasatha.jpg",
+      "genre": "Romantic",
+      "songUrl": "public/songs/agasatha.mp3",
+      "singer": "Kalyani Nair,Pradeep Kumar",
+      "id": 9
+    }
+  ]
+}
